@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2.5rem;
+    
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(4, 4, 4, 0.7);
+    
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    
+}
+
+ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+li {
+    
+    line-height: 1.2rem;
+    background-color: rgb(134, 228, 197);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(4, 4, 4, 0.7);
+}
+.div-wrapper{
+    width: 360px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 0px rgba(4, 4, 4, 0.7);
+}
+
+.column {
+    width:100%;
+    display:inline-block;
+    margin-bottom: .6rem;
+}
+
+form {
+    position: relative;
+    background-color: rgb(45, 165, 125);
+    margin: auto;
+    padding: 1rem;
+    width: fit-content  ;
+}
+
+.fkr-label{
+    width: auto;
+    float: left;
+}
+.fkr-input {
+    
+    margin: 0px;
+    width: 3.4rem;
+    float: right;
+    background-color: grey;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(4, 4, 4, 0.7);
+    padding: 2px;
+}
+.fkr-btn {
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    font-size: 1.5rem;
+    background-color:  rgb(47, 27, 3);
+    color: ghostwhite;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 0px rgba(4, 4, 4, 0.7);
+}
