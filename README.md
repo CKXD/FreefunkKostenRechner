@@ -1,7 +1,8 @@
-# FreefunkKostenRechner
-small calculator for the new FreeFunk tarif
+# FreenetfunkKostenRechner
+small calculator for the new freenet FUNK tarif
 
-startin January 21th freenet change freenet FUNK, this smal calculate how mich it cost, if you use it as a camper.
+startin January 21th freenet change freenet FUNK, this small tool calculate how much it cost, if you use it as a camper.
 
-Live dome you could find here:
+Live demo you could find here:
+
 https://freenetfunk-kostenrechner.netlify.com/
