@@ -1,8 +1,10 @@
 'use strict'
-var total_cost =0;
-var cost_per_usage = 0;
+// var total_cost =0;
+// var cost_per_usage = 0;
 
 function calc_freefunk_cost() {
+let total_cost =0;
+let cost_per_usage = 0;    
 let daysfreebreak = 30;
 let actual_date = new (Date)
 let actual_year = actual_date.getFullYear    
@@ -41,6 +43,6 @@ document.getElementById("costperyear").innerHTML = Math.round(total_cost*100)/10
 document.getElementById("costperusage").innerHTML = Math.round(cost_per_usage*100)/100 
 document.getElementById("actualyear").innerHTML = actual_year
 document.querySelector
-console.log(total_cost);
-console.log(cost_per_usage);
+// console.log(total_cost);
+// console.log(cost_per_usage);
 }
